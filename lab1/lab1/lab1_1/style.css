@@ -12,4 +12,5 @@ table tr #example{
 }
 table tr #links{
     background: darkgray;
+    text-align: center;
 }
