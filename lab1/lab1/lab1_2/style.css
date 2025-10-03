@@ -1,0 +1,39 @@
+body {
+    background: antiquewhite;
+
+}
+main{
+    margin: auto;
+}
+
+main header {
+    background: cornflowerblue;
+}
+
+main nav {
+    background: cadetblue;
+}
+
+main #content {
+    background: darkcyan;
+}
+
+main #content #index {
+    background: indianred;
+    float: left;
+    width: 200px;
+    /*    float - min height*/
+    min-height: 1200px;
+}
+
+main #content #section {
+    background: mediumpurple;
+    float: right;
+    width: calc(100% - 200px);
+    min-height: 1200px;
+    clear: none;
+}
+
+main footer {
+    background: darkorange;
+}

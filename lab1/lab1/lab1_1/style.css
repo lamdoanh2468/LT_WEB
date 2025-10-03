@@ -1,0 +1,15 @@
+table{
+    margin :auto;
+}
+table tr #process{
+    background: antiquewhite;
+}
+table tr #main-menu{
+    background: cadetblue;
+}
+table tr #example{
+    background: coral;
+}
+table tr #links{
+    background: darkgray;
+}
