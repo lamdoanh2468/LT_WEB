@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    font-family: Tahoma;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_text_2 {
+    height: 120px;
+    background: #f3f3f3;
+}
+
+#section_text_2 .alpha {
+    float: left;
+    width: 50%;
+}
+
+#section_text_2 .alpha img {
+    margin-top: 34px;
+    width: 120px;
+    margin-left: 55px;
+}
+
+#section_text_2 .omega {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section_text_2 .omega a {
+    background: #f77825;
+    display: inline-block;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 250px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#section_header_1 {
+    height: 100px;
+    background: white;
+    margin-top: 30px;
+}
+
+#section_header_1 .navbar-header {
+    display: none;
+}
+
+#section_header_1 ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+#section_header_1 .right_socials {
+    float: right;
+    color: #7f7f7f;
+    width: 30%;
+    font-size: 25px;
+    display: inline;
+    text-align: center;
+}
+
+
+#section_header_1 .navbar-collapse {
+    float: left;
+    width: 70%;
+}
+
+#section_header_1 .navbar-collapse .propClone {
+    padding: 15px;
+    font-weight: 600;
+    display: inline;
+}
+
+#section_header_1 .navbar-collapse .propClone a {
+    color: #7f7f7f;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#section_slider {
+    background: #f3f3f3;
+    padding: 100px;
+}
+
+#section_slider .container #myCarousel .carousel-inner .item {
+    position: relative;
+    display: inline-block;
+}
+
+#section_slider .container #myCarousel .carousel-inner .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#section_slider .container #myCarousel .carousel-inner .item .carousel-caption {
+    position: absolute;
+    bottom: 0; /* chữ ở dưới hình */
+    left: 0;
+    width: 1150px;
+    padding: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4); /* nền mờ giúp chữ dễ đọc */
+}
+
+#section_slider .container #myCarousel .carousel-inner .item .carousel-caption h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#section_slider .container #myCarousel .carousel-inner .item .carousel-caption p {
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+
+#section_slider #myCarousel .carousel-indicators ol {
+    list-style-type: none;
+}
+
+#section_party_3 {
+    background: rgba(21, 21, 21, 0.82);
+    text-align: center;
+}
+
+#section_party_3 .headtext_style .editContent .pix_text {
+    font-size: 30px;
+    color: white;
+}
+
+#section_party_3 .headtext_style {
+    padding: 40px 60px;
+}
+
+#section_party_3 .editContent .subtext_style {
+    font-size: 20px;
+    color: #757575;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#section_party_3 .contact_st #contact_form {
+    display: inline-grid;
+}
+
+#section_party_3 .contact_st #contact_form input {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+#section_party_3 .contact_st #contact_form button {
+    background: linear-gradient(to bottom, #4da7ff, #0059b3);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3),
+    0px 2px 3px rgba(0, 0, 0, 0.3); /* Bóng mờ bên ngoài */
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+#section_gym_4{
+    padding: 60px 0;
+    background: #f8f8f8;
+}
+#section_gym_4 .gym_life .top_padding {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#section_gym_4 .gym_life .top_padding .part_st .img_gym_st img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+#section_gym_4 .gym_life .top_padding .part_st .text_gym_style .gym_st{
+    font-size: 20px;
+    font-weight: 550;
+}
+#section_gym_4 .gym_life .top_padding .part_st .link_3_btn a {
+    background: #f77825;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 20px;
+}
+
+#section_intro_title {
+    background: #f3f3f3;
+
+}
+
+
+
+
+
+
+
+
