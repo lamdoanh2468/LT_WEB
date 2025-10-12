@@ -231,66 +231,14 @@ body {
     text-align: center;
 }
 
-#section_gym_4 .gym_life .top_padding .part_st .img_gym_st {
-    margin-bottom: 25px;
-#section_party_3 .headtext_style .editContent .pix_text {
-    font-size: 30px;
-    color: white;
-}
-
-#section_party_3 .headtext_style {
-    padding: 40px 60px;
-}
-
-#section_party_3 .editContent .subtext_style {
-    font-size: 20px;
-    color: #757575;
-    padding: 20px 30px;
-    margin-bottom: 20px;
-}
-
-#section_party_3 .contact_st #contact_form {
-    display: inline-grid;
-}
-
-#section_party_3 .contact_st #contact_form input {
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    width: 400px;
-    font-size: 15px;
-    border-radius: 5px;
-
-}
-
-#section_party_3 .contact_st #contact_form button {
-    background: linear-gradient(to bottom, #4da7ff, #0059b3);
-    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3),
-    0px 2px 3px rgba(0, 0, 0, 0.3); /* Bóng mờ bên ngoài */
-    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.4);
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    padding: 15px 20px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-}
-
-#section_gym_4 {
-    padding: 80px 0;
-    background: #f8f8f8;
-}
-
-#section_gym_4 .gym_life .top_padding {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
 #section_gym_4 .gym_life .top_padding .part_st {
     display: flex;
     flex-direction: column;
-    text-align: center;
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
+    align-items: center;
+}
+
+#section_gym_4 .gym_life .top_padding .part_st .img_gym_st {
+    margin-bottom: 25px;
 }
 
 #section_gym_4 .gym_life .top_padding .part_st .img_gym_st img {
@@ -301,7 +249,6 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-<<<<<<< HEAD
 
 #section_gym_4 .gym_life .top_padding .part_st .img_gym_st img:hover {
     transform: scale(1.05);
@@ -324,32 +271,16 @@ body {
     line-height: 1.6;
 }
 
-=======
-#section_gym_4 .gym_life .top_padding .part_st .text_gym_style{
-    padding: 20px 20px;
-}
-#section_gym_4 .gym_life .top_padding .part_st .text_gym_style .gym_st {
-    font-size: 20px;
-    font-weight: 550;
-}
-
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 #section_gym_4 .gym_life .top_padding .part_st .link_3_btn a {
     background: #f77825;
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
     font-size: 13px;
     padding: 12px 25px;
     border-radius: 3px;
     display: inline-block;
     font-weight: 600;
     transition: background 0.3s ease;
-=======
-    border-radius: 10px;
-    font-size: 15px;
-    padding: 15px 20px;
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 }
 
 #section_gym_4 .gym_life .top_padding .part_st .link_3_btn a:hover {
@@ -362,7 +293,6 @@ body {
     padding: 80px 0;
 }
 
-<<<<<<< HEAD
 #section_intro_title .container {
     display: flex;
     gap: 30px;
@@ -527,8 +457,9 @@ body {
 #section_party_3 .contact_st #contact_form button:hover {
     transform: translateY(-2px);
 }
-/*Hidden Section*/
-#hidden_pix_15{
+
+/*Hidden Section */
+#hidden_pix_15 {
     display: none;
 }
 /* Footer Section */
@@ -545,49 +476,16 @@ body {
     justify-content: space-between;
 }
 
-=======
-#section_party_4 {
-    background: #151515;
-    color: white;
-    padding: 15px 20px;
-}
-
-#hidden_pix_15 {
-    display: none;
-}
-
-#section_party_4 .foot_st {
-    overflow: hidden;
-
-}
-
-#section_party_4 .foot_st .sixteen.columns {
-    display: flex;
-    align-items: center;
-}
-
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 #section_party_4 .foot_st .seven.columns {
     float: left;
-    width: 700px;
-
 }
 
 #section_party_4 .foot_st .nine.columns {
     float: right;
-    width: 500px;
-    display: flex;
-    align-items: center;
 }
 
 #section_party_4 .foot_st .rights_st {
-<<<<<<< HEAD
     font-size: 13px;
-=======
-    width: auto;
-    color: #7f7f7f;
-    font-size: 14px;
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 }
 
 #section_party_4 .foot_st .rights_st .pixfort_st {
@@ -596,7 +494,6 @@ body {
 }
 
 #section_party_4 .socbuttons {
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     gap: 30px;
@@ -605,45 +502,13 @@ body {
 #section_party_4 .socbuttons .soc_icons {
     color: #666;
     font-size: 18px;
-=======
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    gap: 5px;
-}
-
-#section_party_4 .likes_st {
-    color: #7f7f7f;
-    font-size: 14px;
-    white-space: nowrap;
-}
-
-#section_party_4 .socbuttons .soc_icons {
-    color: #7f7f7f;
-    width: auto;
-    font-size: 25px;
-    text-align: center;
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 }
 
 #section_party_4 .socbuttons .bottom-icons {
     list-style-type: none;
     display: flex;
     gap: 15px;
-<<<<<<< HEAD
     margin: 0;
-=======
-}
-
-#section_party_4 .socbuttons .bottom-icons li {
-    cursor: pointer;
-}
-
-#section_party_4 .socbuttons .bottom-icons li:hover i {
-    color: #4da7ff;
->>>>>>> 4c9ad5b4c1be058092cc5c4b048f2f272d5e2cf7
 }
 
 #section_party_4 .socbuttons .bottom-icons li i {
