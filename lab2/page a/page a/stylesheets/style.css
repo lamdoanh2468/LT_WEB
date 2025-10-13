@@ -124,6 +124,7 @@ body {
     margin: 0;
     background: #eeeeee;
     padding: 0 20px;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
 }
 
 #section_normal_6 .container {
@@ -220,7 +221,7 @@ body {
 #section_agency_5 {
     width: 100%;
     height: 500px;
-    font-family: Tahoma,sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 #section_agency_5 .foot_st .sixteen .f1_style .editContent {
@@ -230,10 +231,12 @@ body {
     justify-content: center;
     padding: 45px 40px;
 }
-#section_agency_5 .foot_st .editContent{
-    color : #afafaf;
+
+#section_agency_5 .foot_st .editContent {
+    color: #afafaf;
     font-size: 20px;
 }
+
 #section_agency_5 .foot_st .second_link .slow_fade {
     text-decoration: none;
     font-weight: 550;
@@ -261,5 +264,9 @@ body {
     width: 40px;
     height: auto;
     gap: 10px;
+}
+#section_agency_5 .foot_st .editContent .pix_text .pixfort_st{
+    font-weight: 550;
+    color: #4e8c5b;
 }
 
