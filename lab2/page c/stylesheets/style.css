@@ -60,23 +60,137 @@ body {
     text-decoration: none;
     color: #a4a5b7;
 }
-#page #section_pix_4{
-    background: grey;
-}
-#page #section_pix_4 .has-video .pix_video_div video{
-    width: 100%;
-    display: block;
-}
-#page #section_pix_4 .section_wrapper .sixteen{
-    position: absolute;
-    display: inline;
-    top: 80%;
-    left: 30%;
-    color: white;
-    font-size: 20px;
-}
-#page #section_pix_4 .section_wrapper .email_subscribe form#contact_form_1{
 
+#page #section_pix_4 {
+    background: grey;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
+
+#page #section_pix_4 .has-video {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#page #section_pix_4 .has-video .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#page #section_pix_4 .has-video .pix_video_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#page #section_pix_4 .has-video .pix_video_div video,
+#page #section_pix_4 .has-video .pix_video_div img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#page #section_pix_4 .section_wrapper {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page #section_pix_4 .section_wrapper .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+#page #section_pix_4 .section_wrapper .sixteen {
+    color: white;
+    text-align: center;
+}
+
+#page #section_pix_4 .section_wrapper .sixteen .title_style {
+    margin-bottom: 20px;
+}
+
+#page #section_pix_4 .section_wrapper .sixteen .title_style .pix_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#page #section_pix_4 .section_wrapper .sixteen .subtitle_style {
+    margin-bottom: 30px;
+}
+
+#page #section_pix_4 .section_wrapper .sixteen .subtitle_style .pix_text {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#page #section_pix_4 .section_wrapper form#contact_form_1 {
+    background: rgba(26, 26, 26, 0.85);
+    display: inline-flex;
+    padding: 18px 4px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+#page #section_pix_4 .section_wrapper form#contact_form_1 input#email_1 {
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 350px;
+    background: white;
+    color: #333;
+    border-radius: 2px
+}
+
+#page #section_pix_4 .section_wrapper form#contact_form_1 input#email_1::placeholder {
+    color: #999;
+}
+
+#page #section_pix_4 .section_wrapper form#contact_form_1 .subscribe_btn {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #eeca4b;
+    color: #fefaf0;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#page #section_pix_4 .section_wrapper form#contact_form_1 .subscribe_btn:hover {
+    background: #d9b43a;
+}
+
+#page #section_pix_4 .section_wrapper .note_st {
+    margin-top: 10px;
+}
+
+#page #section_pix_4 .section_wrapper .note_st .pix_text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
 
 
