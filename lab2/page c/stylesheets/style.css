@@ -184,13 +184,133 @@ body {
 }
 
 #page #section_pix_4 .section_wrapper .note_st {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #page #section_pix_4 .section_wrapper .note_st .pix_text {
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.85);
 }
+
+#hidden_pix_1 {
+    display: none;
+}
+
+#section_university_5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+#section_university_5 .ten.columns {
+    float: left;
+    text-align: left;
+    width: 55%;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+#section_university_5 .six.columns {
+    float: right;
+    width: 400px;
+    height: auto;
+    text-align: left;
+}
+
+#section_university_5 .join_us_section .ten .zone_left .psingle_item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+#section_university_5 .join_us_section .zone_left .psingle_item .icon_st {
+    flex-shrink: 0;
+}
+
+#section_university_5 .join_us_section .zone_left .psingle_item .icon_st img {
+    width: 80px;
+    height: 80px;
+    padding-right: 20px;
+}
+
+#section_university_5 .join_us_section .zone_left .psingle_item .text_st {
+    flex: 1;
+}
+
+#section_university_5 .join_us_section .zone_left .psingle_item .title_st {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#section_university_5 .join_us_section .zone_left .psingle_item .subject_st {
+    color: #999;
+    line-height: 1.6;
+    font-size: 18px;
+    width: 400px;
+}
+
+#section_university_5 .substyle {
+    background: #e8e8e8;
+    padding: 40px 30px;
+    border-radius: 4px;
+}
+
+#section_university_5 .substyle .title-style {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+#section_university_5 form{
+    width:100%;
+    height: auto;
+}
+#section_university_5 form input[type="text"],
+#section_university_5 form input[type="email"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#section_university_5 form .select_st select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+}
+
+#section_university_5 form .submit_btn {
+    width: 100%;
+    padding: 15px;
+    background: #7cc576;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#hidden_pix_6 {
+    display: none;
+}
+#section_ecourse_7{
+    background: #eeeeee;
+}
+
 
 
 
