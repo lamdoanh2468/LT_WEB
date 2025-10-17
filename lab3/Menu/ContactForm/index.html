@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"
+          integrity="sha512-ZfKn7az0YmtPUojZnRXO4CUdt3pn+ogBAyGbqGplrCIR5B/tQwPGtF2q29t+zQj6mC/20w4sSl0cF5F3r0HKSQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <h1>Contact Us</h1>
@@ -24,8 +27,9 @@
     </div>
     <div class="content-block">
         <label for="service-menu">NEEDED SERVICES
+
             <select id="service-menu">
-                <option value="">Please chooses</option>
+                <option value="" data-icon="fa fa-sort"> Please chooses </option>
                 <option value="Microservices" class="service-selection">Micro Services</option>
                 <option value="AWS" class="service-selection">Amazon Web Server</option>
             </select>
@@ -35,7 +39,8 @@
         <label for="message-input">MESSAGE</label>
         <textarea id="message-input" placeholder="Your message here..." name="message"></textarea>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit">Submit<i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
 </form>
 </body>
 </html>
