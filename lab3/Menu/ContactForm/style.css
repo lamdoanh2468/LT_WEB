@@ -35,8 +35,14 @@ h1 {
 
 .contact-form .content-block {
     margin-bottom: 25px;
+    background: rgb(247, 247, 247);
+    border-radius: 10px;
+    border: 1px solid #F3F3F3;
 }
-
+.contact-form .content-block #service-menu{
+    font-weight: bold;
+    position: relative;
+}
 .contact-form .email-phone {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,8 +57,8 @@ h1 {
     color: #666;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 8px;
     text-align: left;
+    padding: 10px 15px;
 }
 
 .contact-form input[type="text"],
@@ -61,29 +67,33 @@ h1 {
 .contact-form textarea {
     width: 100%;
     padding: 14px 16px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
     font-size: 14px;
     color: #333;
-    background: #fafafa;
+    background: rgb(247, 247, 247);
 }
+
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: #ccc;
-}
+    font-weight: 550;
 
+}
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
     outline: none;
     border-color: #333;
-    background: white;
 }
 
-textarea {
+.contact-form textarea {
     resize: vertical;
     min-height: 120px;
     font-family: inherit;
+    background: white;
+
 }
 
 .contact-form select {
@@ -126,4 +136,6 @@ textarea {
 .fa.fa-arrow-right {
     margin-left: 8px;
 }
+
+
 
