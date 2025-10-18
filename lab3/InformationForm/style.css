@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form label {
+    color: #8AD734;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.register-form i {
+    color: #BABABA;
+    padding: 5px 8px;
+    font-size: 10px;
+    border-right: 1px solid #BABABA;
+}
+
+.register-form input, button {
+    border: none;
+    background: #F9F9F9;
+    margin-top: 10px;
+}
+
+.register-form .input-group {
+    background: #F9F9F9;
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(186, 186, 186, 0.3);
+    border-radius: 3px;
+}
+
+.register-form .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.register-form .row .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form .row .col .dob input[placeholder="DD"], input[placeholder="MM"], input[placeholder="YYYY"] {
+    width: 35px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgba(186, 186, 186, 0.3);
+}
+
+.register-form .row .col .gender {
+    display: flex;
+    margin-right: 10px;
+}
+
+.register-form .row .col .gender button {
+    width: 100px;
+    height: auto;
+    padding: 10px 0;
+    border: 1px solid rgba(186, 186, 186, 0.3);
+}
+.register-form .payment-options{
+    display: flex;
+    padding-bottom: 20px;
+}
+.register-form .payment-options button {
+    background: #F9F9F9;
+    width: 255px;
+    height: auto;
+    border: 1px solid rgba(186, 186, 186, 0.3);
+}
