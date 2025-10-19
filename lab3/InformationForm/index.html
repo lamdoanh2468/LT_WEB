@@ -9,90 +9,98 @@
 <body>
 <div class="form-container">
     <form class="register-form">
-
-        <!-- Account Section -->
-        <label for="account-name" class="section-label">Account</label>
-        <div class="input-group">
-            <i class="fa fa-user"></i>
-            <input id="account-name" type="text" placeholder="Full Name" name="fullname" required>
+        <div class="account-section">
+            <!-- Account Section -->
+            <label for="account-name" class="section-label">Account</label>
+            <div class="input-group">
+                <i class="fa fa-user"></i>
+                <input id="account-name" type="text" placeholder="Full Name" name="fullname" required>
+            </div>
+            <div class="input-group">
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="Email Address" name="email" required>
+            </div>
+            <div class="input-group">
+                <i class="fa fa-key"></i>
+                <input type="password" placeholder="Password" name="password" required>
+            </div>
         </div>
-        <div class="input-group">
-            <i class="fa fa-envelope"></i>
-            <input type="email" placeholder="Email Address" name="email" required>
-        </div>
-        <div class="input-group">
-            <i class="fa fa-key"></i>
-            <input type="password" placeholder="Password" name="password" required>
-        </div>
-
-        <!-- Date of Birth & Gender -->
-        <div class="row">
-            <div class="col">
-                <label class="section-label">Date of Birth</label>
-                <div class="dob">
-                    <input type="text" placeholder="DD" maxlength="2">
-                    <input type="text" placeholder="MM" maxlength="2">
-                    <input type="text" placeholder="YYYY" maxlength="4">
+        <div class="date-section">
+            <!-- Date of Birth & Gender -->
+            <div class="row">
+                <div class="col">
+                    <label class="section-label">Date of Birth</label>
+                    <div class="dob">
+                        <input type="text" placeholder="DD" maxlength="2">
+                        <input type="text" placeholder="MM" maxlength="2">
+                        <input type="text" placeholder="YYYY" maxlength="4">
+                    </div>
+                </div>
+                <div class="col">
+                    <label class="section-label">Gender</label>
+                    <div class="gender">
+                        <button type="button" class="gender-btn active">Male</button>
+                        <button type="button" class="gender-btn">Female</button>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <label class="section-label">Gender</label>
-                <div class="gender">
-                    <button type="button" class="gender-btn active">Male</button>
-                    <button type="button" class="gender-btn">Female</button>
+        </div>
+        <div class="payment-section">
+            <!-- Payment Details -->
+            <label class="section-label">Payment Details</label>
+            <div class="payment-options">
+                <button type="button" class="payment-btn active" id="active">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" width="25">
+                    Credit Card
+                </button>
+                <button type="button" class="payment-btn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" width="25">
+                    Paypal
+                </button>
+            </div>
+
+            <div class="input-group">
+                <i class="fa fa-credit-card"></i>
+                <input type="text" placeholder="Card Number">
+            </div>
+
+            <!-- CVC + Expiry in one row -->
+            <div class="row payment-row">
+                <div class="col left-corner">
+                    <div class="input-group">
+                        <i class="fa fa-lock"></i>
+                        <input id="card-cvc" type="text" placeholder="Card CVC" maxlength="3">
+                    </div>
+                </div>
+                <div class="col right-corner">
+                    <div class="date-time">
+                        <select>
+                            <option>01 Jan</option>
+                            <option>02 Jan</option>
+                            <option>03 Jan</option>
+                        </select>
+                        <select>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Payment Details -->
-        <label class="section-label">Payment Details</label>
-        <div class="payment-options">
-            <button type="button" class="payment-btn active">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" width="25"> Credit
-                Card
-            </button>
-            <button type="button" class="payment-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" width="25">
-                Paypal
-            </button>
-        </div>
-
-        <div class="input-group">
-            <i class="fa fa-credit-card"></i>
-            <input type="text" placeholder="Card Number">
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="input-group">
-                    <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Card CVC" maxlength="3">
-                </div>
+        <div class="terms-section">
+            <!-- Terms -->
+            <div class="terms">
+                <label class="section-label">Terms and Conditions</label>
+                <label class="confirm-label">
+                    <input type="checkbox" required>
+                    <span> I accept the terms and conditions for signing up to this service, and hereby confirm I have read
+                        the
+                        privacy policy.
+                    </span>
+                </label>
             </div>
-            <div class="col">
-                <select>
-                    <option>01 Jan</option>
-                    <option>02 Jan</option>
-                    <option>03 Jan</option>
-                </select>
-            </div>
-            <div class="col">
-                <select>
-                    <option>2015</option>
-                    <option>2016</option>
-                    <option>2017</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- Terms -->
-        <label class="section-label">Terms and Conditions</label>
-        <div class="terms">
-            <label>
-                <input type="checkbox" required>
-                I accept the terms and conditions for signing up to this service, and hereby confirm I have read the
-                privacy policy.
-            </label>
         </div>
     </form>
 </div>
