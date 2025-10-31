@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+    let body = document.querySelector("body");
+    let greetings =["Morning!","How are things?"," What’s new?"," It’s good to see you"];
+    let randomGreetings = Math.floor(Math.random() * (greetings.length));
+    body.onload = function () {
+        alert(greetings[randomGreetings]);
+    };
+</script>
+</body>
+</html>

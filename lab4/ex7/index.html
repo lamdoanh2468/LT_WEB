@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>64 Buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grid"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    /*
+    * STEP 1: INITIALIZE 64 RANDOM BUTTONS USING SET
+    * STEP 2: CLICK LOGIC + HIDDEN + ALERT MISSING BUTTONS
+    * */
+    $(document).ready(function() {
+        //STEP 1: INITIALIZE 64 RANDOM BUTTONS USING SET
+        const grid = $(".grid");
+        const numbers = new Set();
+        while(numbers.size<64){
+            numbers.add(Math.floor(Math.random() *64)+1);
+        }
+        for (let num of numbers) {
+            $("<button>")
+                .text(num)
+                .addClass("button" + num)
+                .appendTo(grid);
+        }
+        // STEP 2: CLICK LOGIC + HIDDEN + ALERT MISSING BUTTONS
+        let next =1;
+        $(".grid button").on("click", function() {
+            if( $(this).text() === next.toString()){
+                $(this).fadeOut(200);
+                next++;
+            }else{
+                alert("Sai thứ tự");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

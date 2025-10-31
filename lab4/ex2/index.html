@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <label for="first-num">a:</label>
+    <input id="first-num" value="5" type="number">
+</div>
+<div>
+    <label for="second-num">b:</label>
+    <input id="second-num" type="number">
+</div>
+<div>
+    <label for="third-num">c:</label>
+    <input id="third-num" type="number">
+</div>
+<button onclick="calculateQuadratic()">Calculate</button>
+<div id="result">Result:
+</div>
+<p id="x1"></p>
+<p id="x2"></p>
+<script>
+    function calculateQuadratic() {
+        let a = document.getElementById("first-num").value;
+        let b = document.getElementById("second-num").value;
+        let c = document.getElementById("third-num").value;
+        let delta;
+        //result
+        let x1 = document.getElementById("x1").value;
+        let x2 = document.getElementById("x2").value;
+        let result = document.getElementById("result");
+        if (a == 0) {
+            result.innerHTML = "Không phải phương trình bậc 2";
+            return;
+        }
+        delta = b * b - 4 * a * c;
+        if (delta < 0) {
+            result.innerHTML = "Phương Trình Vô Nghiệm";
+        } else if (delta == 0) {
+            x1 = -b / (2 * a);
+            result.innerHTML = "Phương trình có nghiệm kép: x =" + x1;
+        } else {
+            x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            result.innerHTML = "Phương trình có hai nghiệm phân biệt:"+"<br>" + x1 + "<br>" + x2;
+        }
+        return 0;
+    }
+
+</script>
+</body>
+</html>

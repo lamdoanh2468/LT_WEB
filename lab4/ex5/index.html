@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <img class="image-container" src="colorful-abstract-background.jpg">
+<script>
+    $(document).ready(function(){
+        let angle =0;
+            setInterval(function(){
+                angle +=15;
+                $(".image-container").css("transform","rotate("+angle+"deg)");
+            },2000)
+    })
+</script>
+
+</body>
+</html>

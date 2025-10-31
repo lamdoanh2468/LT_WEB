@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button data-color="indianred" style="background: indianred;">Red</button>
+<button data-color="lightskyblue" style="background: lightskyblue;">Blue</button>
+<button data-color="lightyellow" style="background: lightyellow;">Orange</button>
+<button data-color="darkseagreen" style="background: darkseagreen;">Green</button>
+<script>
+    const body = document.body;
+    let buttons = document.querySelectorAll("button");
+    buttons.forEach(button => {
+        button.addEventListener("click", function (){
+            body.style.backgroundColor = button.dataset.color;
+        })
+    })
+
+
+
+</script>
+</body>
+</html>

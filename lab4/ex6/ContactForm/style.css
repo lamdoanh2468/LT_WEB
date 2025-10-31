@@ -136,6 +136,8 @@ h1 {
 .fa.fa-arrow-right {
     margin-left: 8px;
 }
-
+.error{
+    border: 1px solid red !important;
+}
 
 

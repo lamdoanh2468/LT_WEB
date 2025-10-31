@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h2>Đếm số lần xuất hiện của chuỗi B trong đoạn A</h2>
+
+<textarea id="textA" placeholder="Nhập đoạn văn (A)..."></textarea>
+<input id="textB" type="text" placeholder="Nhập chuỗi cần tìm (B)">
+<button onclick="countOccurrences()">Tính toán</button>
+
+<div id="result"></div><script>
+    function countOccurrences() {
+        const textA = document.getElementById('textA').value;
+        const textB = document.getElementById('textB').value.trim();
+        const result = document.getElementById('result');
+
+        if (textB === "") {
+            result.innerHTML = "Vui lòng nhập chuỗi B!";
+            return;
+        }
+
+        // Cắt textA thành mảng bằng textB → số lần xuất hiện = số phần - 1
+        const count = textA.split(textB).length - 1;
+
+        result.innerHTML = `Chuỗi "${textB}" xuất hiện ${count} lần trong đoạn văn.`;
+    }
+
+</script>
+
+</body>
+</html>
