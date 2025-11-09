@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url("../img/win11_theme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    background: white;
+}
+
+.sign-in-form .custom-input {
+    padding: 8px;
+}
+
+.sign-in-form .custom-input input {
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    height: 30px;
+    padding: 5px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.sign-in-form h1 {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.sign-in-form .custom-input input::placeholder {
+    font-weight: bold;
+}
+
+.sign-in-form button.sign-in-bttn {
+    background: linear-gradient(135deg, #C86DD7, #7E57C2); /* gradient tím hồng */
+    border: none;
+    border-radius: 100px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.sign-in-form button.sign-up-bttn {
+    border: none;
+    background: white;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 550;
+    position: relative;
+    top: 100px;
+}
+
+.sign-in-form .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sign-in-form .alternative-way p {
+    color: #B8B8B8;
+    margin: 20px;
+}
+
+.sign-in-form .alternative-way a {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-form .alternative-way a img {
+    width: 30px;
+    height: auto;
+}
+
+
+
+

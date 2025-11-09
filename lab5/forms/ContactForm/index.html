@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"
+          integrity="sha512-ZfKn7az0YmtPUojZnRXO4CUdt3pn+ogBAyGbqGplrCIR5B/tQwPGtF2q29t+zQj6mC/20w4sSl0cF5F3r0HKSQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<form class="contact-form">
+    <h1>Contact Us</h1>
+    <div class="content-block">
+        <label for="text-input">FULL NAME*<span class="error-value"></span></label>
+        <input type="text" id="text-input" placeholder="Enter your name" name="name" required>
+    </div>
+    <div class="email-phone">
+        <div class="content-block">
+            <label for="email-input">EMAIL*<span class="error-value"></span></label>
+            <input type="email" id="email-input" placeholder="Enter your Email" name="email" required>
+        </div>
+        <div class="content-block">
+            <label for="phone-input">PHONE</label>
+            <input type="text" id="phone-input" placeholder="Enter Number Phone" name="phone">
+        </div>
+    </div>
+    <div class="content-block">
+        <label for="service-menu">NEEDED SERVICES*<span class="error-value"></span>
+        </label>
+        <select required id="service-menu">
+            <option value=""> Please chooses</option>
+            <option value="Microservices" class="service-selection">Micro Services</option>
+            <option value="AWS" class="service-selection">Amazon Web Server</option>
+        </select>
+    </div>
+    <div class="content-block" style="background: white">
+        <label for="message-input">MESSAGE</label>
+        <textarea id="message-input" placeholder="Your message here..." name="message"></textarea>
+    </div>
+    <button id="submit-btn" type="submit">Submit<i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
